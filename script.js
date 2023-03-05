@@ -12,4 +12,9 @@ async function getAdvice(){
     }
 }
 
-getAdvice()
+// getAdvice()
+
+
+
+const btn = document.getElementById('newAdvice')
+btn.addEventListener('click', getAdvice)
